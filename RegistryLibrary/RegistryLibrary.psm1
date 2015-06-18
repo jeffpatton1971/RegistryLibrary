@@ -73,6 +73,11 @@ Function Get-RegistryValue
             FunctionName : Get-RegistryValue
             Created by   : jspatton
             Date Coded   : 02/03/2015 09:48:47
+
+            Error Codes and Descriptions can be found at the following URLs:
+            https://msdn.microsoft.com/en-us/library/windows/desktop/aa394559(v=vs.85).aspx
+            https://msdn.microsoft.com/en-us/library/ms681381(v=vs.85).aspx
+            https://msdn.microsoft.com/en-us/library/windows/desktop/aa394565(v=vs.85).aspx
         .LINK
             https://github.com/jeffpatton1971/mod-posh/wiki/RegistryLibrary#Get-RegistryValue
         .LINK
@@ -217,6 +222,11 @@ Function Set-RegistryValue
             FunctionName : Set-RegistryValue
             Created by   : jspatton
             Date Coded   : 02/03/2015 10:50:52
+
+            Error Codes and Descriptions can be found at the following URLs:
+            https://msdn.microsoft.com/en-us/library/windows/desktop/aa394559(v=vs.85).aspx
+            https://msdn.microsoft.com/en-us/library/ms681381(v=vs.85).aspx
+            https://msdn.microsoft.com/en-us/library/windows/desktop/aa394565(v=vs.85).aspx
         .LINK
             https://github.com/jeffpatton1971/mod-posh/wiki/RegistryLibrary#Set-RegistryValue
         .LINK
@@ -356,6 +366,11 @@ Function New-RegistryKey
             FunctionName : New-RegistryKey
             Created by   : jspatton
             Date Coded   : 02/03/2015 11:00:40
+
+            Error Codes and Descriptions can be found at the following URLs:
+            https://msdn.microsoft.com/en-us/library/windows/desktop/aa394559(v=vs.85).aspx
+            https://msdn.microsoft.com/en-us/library/ms681381(v=vs.85).aspx
+            https://msdn.microsoft.com/en-us/library/windows/desktop/aa394565(v=vs.85).aspx
         .LINK
             https://github.com/jeffpatton1971/mod-posh/wiki/RegistryLibrary#New-RegistryKey
         .LINK
@@ -443,6 +458,11 @@ Function Remove-RegistryKey
             FunctionName : Remove-RegistryKey
             Created by   : jspatton
             Date Coded   : 02/03/2015 11:41:58
+
+            Error Codes and Descriptions can be found at the following URLs:
+            https://msdn.microsoft.com/en-us/library/windows/desktop/aa394559(v=vs.85).aspx
+            https://msdn.microsoft.com/en-us/library/ms681381(v=vs.85).aspx
+            https://msdn.microsoft.com/en-us/library/windows/desktop/aa394565(v=vs.85).aspx
         .LINK
             https://github.com/jeffpatton1971/mod-posh/wiki/RegistryLibrary#Remove-RegistryKey
         .LINK
@@ -532,6 +552,11 @@ Function Remove-RegistryValue
             FunctionName : Remove-RegistryKey
             Created by   : jspatton
             Date Coded   : 06/15/2015 10:17:58
+
+            Error Codes and Descriptions can be found at the following URLs:
+            https://msdn.microsoft.com/en-us/library/windows/desktop/aa394559(v=vs.85).aspx
+            https://msdn.microsoft.com/en-us/library/ms681381(v=vs.85).aspx
+            https://msdn.microsoft.com/en-us/library/windows/desktop/aa394565(v=vs.85).aspx
         .LINK
             https://github.com/jeffpatton1971/mod-posh/wiki/RegistryLibrary#Remove-RegistryValue
         .LINK
@@ -629,6 +654,11 @@ Function Get-RegistryKey
             FunctionName : Get-RegistryKey
             Created by   : jspatton
             Date Coded   : 02/03/2015 11:52:49
+
+            Error Codes and Descriptions can be found at the following URLs:
+            https://msdn.microsoft.com/en-us/library/windows/desktop/aa394559(v=vs.85).aspx
+            https://msdn.microsoft.com/en-us/library/ms681381(v=vs.85).aspx
+            https://msdn.microsoft.com/en-us/library/windows/desktop/aa394565(v=vs.85).aspx
         .LINK
             https://github.com/jeffpatton1971/mod-posh/wiki/RegistryLibrary#Get-RegistryKey
         .LINK
