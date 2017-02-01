@@ -7,6 +7,8 @@ Latest releases can be found [here] (https://github.com/jeffpatton1971/RegistryL
 Return codes from WMI can be found at the following URL's
 * [WMI Return Codes] (https://msdn.microsoft.com/en-us/library/windows/desktop/aa394574(v=vs.85).aspx)
 * [System Error Codes] (https://msdn.microsoft.com/en-us/library/ms681381(v=vs.85).aspx)
+* [WbemErrorEnum Codes] (https://msdn.microsoft.com/en-us/library/aa393978%28vs.85%29.aspx)
+* [WBEMSTATUS Enumeration] (https://msdn.microsoft.com/en-us/library/mt300894%28v=vs.85%29.aspx)
 
 ## Related Projects
 A list of projects that depend on this module in order to work
