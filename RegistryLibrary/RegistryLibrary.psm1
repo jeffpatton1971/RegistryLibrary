@@ -734,26 +734,16 @@ Function Test-RegistryKey
         .PARAMETER ComputerName
             The name of a remote computer to query, the default is localhost
         .EXAMPLE
-            Get-RegistryKey -Hive HKEY_LOCAL_MACHINE -SubKeyName "SOFTWARE"
+            Test-RegistryKey -Hive HKEY_LOCAL_MACHINE -SubKeyName "SOFTWARE"
+			True
 
-
-            __GENUS          : 2
-            __CLASS          : __PARAMETERS
-            __SUPERCLASS     :
-            __DYNASTY        : __PARAMETERS
-            __RELPATH        :
-            __PROPERTY_COUNT : 2
-            __DERIVATION     : {}
-            __SERVER         :
-            __NAMESPACE      :
-            __PATH           :
-            ReturnValue      : 0
-            sNames           : {Classes, Clients, IM Providers, Intel...}
-            PSComputerName   :
+            Description
+            -----------
+            This example shows how to use the function to test if a key exists
         .NOTES
-            FunctionName : Get-RegistryKey
+            FunctionName : Test-RegistryKey
             Created by   : jspatton
-            Date Coded   : 02/03/2015 11:52:49
+            Date Coded   : 09/16/2017 02:20:00
 
             Error Codes and Descriptions can be found at the following URLs:
             https://msdn.microsoft.com/en-us/library/windows/desktop/aa394559(v=vs.85).aspx
@@ -848,53 +838,16 @@ Function Test-RegistryValue
         .PARAMETER ComputerName
             The name of a remote computer to query, the default is localhost
         .EXAMPLE
-            Get-RegistryValue -Hive HKEY_LOCAL_MACHINE -SubKeyName "SOFTWARE\Microsoft\Internet Explorer" -ValueName "Version" -ValueType String
-
-
-            __GENUS          : 2
-            __CLASS          : __PARAMETERS
-            __SUPERCLASS     : 
-            __DYNASTY        : __PARAMETERS
-            __RELPATH        : 
-            __PROPERTY_COUNT : 2
-            __DERIVATION     : {}
-            __SERVER         : 
-            __NAMESPACE      : 
-            __PATH           : 
-            ReturnValue      : 0
-            sValue           : 9.11.9600.17498
-            PSComputerName   : 
+            Test-RegistryValue -Hive HKEY_LOCAL_MACHINE -SubKeyName "SOFTWARE\Microsoft\Internet Explorer" -ValueName "Version" -ValueType String
+			True
 
             Description
             -----------
-            This example shows getting the version value from the internet explorer registry
-            key.
-        .EXAMPLE
-            Get-RegistryValue -Hive HKEY_LOCAL_MACHINE -SubKeyName "SOFTWARE\Microsoft\Internet Explorer"
-
-
-            __GENUS          : 2
-            __CLASS          : __PARAMETERS
-            __SUPERCLASS     :
-            __DYNASTY        : __PARAMETERS
-            __RELPATH        :
-            __PROPERTY_COUNT : 3
-            __DERIVATION     : {}
-            __SERVER         :
-            __NAMESPACE      :
-            __PATH           :
-            ReturnValue      : 0
-            sNames           : {Version, svcKBFWLink, svcVersion, svcUpdateVersion...}
-            Types            : {1, 1, 1, 1...}
-            PSComputerName   :
-
-            Description
-            -----------
-            This example shows how to list all the values in a given key, simply omit the ValueName param.
+            This example shows how to use the function to test if a value exists
         .NOTES
-            FunctionName : Get-RegistryValue
+            FunctionName : Test-RegistryValue
             Created by   : jspatton
-            Date Coded   : 02/03/2015 09:48:47
+            Date Coded   : 09/16/2017 02:22:00
 
             Error Codes and Descriptions can be found at the following URLs:
             https://msdn.microsoft.com/en-us/library/windows/desktop/aa394559(v=vs.85).aspx
